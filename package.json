@@ -1,0 +1,42 @@
+{
+  "name": "trackgo-ts",
+  "version": "2.0.0",
+  "description": "Bot TrackGo - TypeScript Version",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon --inspect ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedbluue/trackgo.git"
+  },
+  "keywords": [
+    "track",
+    "tracks"
+  ],
+  "author": "Igor Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reedbluue/trackgo/issues"
+  },
+  "homepage": "https://github.com/reedbluue/trackgo#readme",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/luxon": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@keyvhq/core": "^1.6.14",
+    "chalk": "^5.1.2",
+    "correios-brasil": "^3.0.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^3.1.1",
+    "mongoose": "^6.7.5",
+    "telegraf": "^4.11.2"
+  }
+}
